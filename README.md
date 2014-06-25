@@ -12,7 +12,7 @@ UIKitDynamicsTutorial
 
 ## Animation Settings
 ###UICollisionBehavior = Add ability for animation item to collide. 
-###UIDynamicItemBehavior = Add animation settings
+###UIDynamicItemBehavior = Add ability to change animation settings
 ###UIAttachmentBehavior = add attachment behavior
 
 
