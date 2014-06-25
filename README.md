@@ -26,3 +26,9 @@ self.animator=[[UIDynamicAnimator alloc]initWithReferenceView:self.testView];
   ```objective-c
 UIGravityBehavior *gravityBehavior = [[UIGravityBehavior alloc] initWithItems:@[WhatEverViewYouWant1,WhatEverViewYouWant2]];
 ```
+
+##### 4. Create UIDynamicAnimator Property
+```objective-c
+    UIGravityBehavior *gravityBehavior = [[UIGravityBehavior alloc] initWithItems:@[self.testView]];
+    
+  ```
