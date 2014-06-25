@@ -26,8 +26,9 @@ UIKitDynamics Tutorial
   ```objective-c
 self.animator=[[UIDynamicAnimator alloc]initWithReferenceView:self.view];
 ```
-##### 3.  Choose which view/views to add effects to and Choose animator
+##### 3.  Choose which view/views to add effects to and Choose animation type
   ```objective-c
+  // Animation Types =  UIAttachmentBehavior, UICollisionBehavior, UIDynamicItemBehavior, UIGravityBehavior, UIPushBehavior, and UISnapBehavior
 UIGravityBehavior *gravityBehavior = [[UIGravityBehavior alloc] initWithItems:@[WhatEverViewYouWant1,WhatEverViewYouWant2]];
 ```
 
