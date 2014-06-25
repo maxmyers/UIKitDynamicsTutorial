@@ -35,5 +35,12 @@ UIGravityBehavior *gravityBehavior = [[UIGravityBehavior alloc] initWithItems:@[
 ### 4. Add Animator Behavior To UIDynamicAnimator
 ```objective-c
       [self.animator addBehavior:gravityBehavior];
-    
   ```
+
+
+# UICollisionBehavior
+# UIDynamicItemBehavior
+# UIGravityBehavior
+# UIPushBehavior
+# UISnapBehavior
+# UIAttachmentBehavior
