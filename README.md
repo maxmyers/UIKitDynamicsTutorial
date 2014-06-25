@@ -67,6 +67,10 @@ UIGravityBehavior *gravityBehavior = [[UIGravityBehavior alloc] initWithItems:@[
 
 
 # UIDynamicItemBehavior
+
+### Creates a setting to tweak other behaviors
+
+
 # UIGravityBehavior
 # UIPushBehavior
 # UISnapBehavior
