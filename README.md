@@ -3,7 +3,7 @@ UIKitDynamicsTutorial
 
 UIKitDynamics Tutorial
 
-# Basic Animations
+# 6 Kinds of Animation Behaviors UIAttachmentBehavior, UICollisionBehavior, UIDynamicItemBehavior, UIGravityBehavior, UIPushBehavior, and UISnapBehavior
 
 ### 3 steps to basic animations
 
