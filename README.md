@@ -5,6 +5,17 @@ UIKitDynamicsTutorial
 
 ### UICollisionBehavior | UIDynamicItemBehavior | UIGravityBehavior | UIPushBehavior | UISnapBehavior | UIAttachmentBehavior
 
+## Animations
+###UIGravityBehavior = Movements like being pushed by gravity
+###UIPushBehavior = Push movement
+###UISnapBehavior = Snap Movement
+
+## Animation Settings
+###UICollisionBehavior = Add ability for animation item to collide. 
+###UIDynamicItemBehavior = Add animation settings
+###UIAttachmentBehavior = add attachment behavior
+
+
 ## Example Of Animation Behavior
 
 `
