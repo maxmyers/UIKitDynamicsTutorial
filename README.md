@@ -1,7 +1,7 @@
 UIKitDynamicsTutorial
 =====================
 
-# 6 Kinds of Animation Behaviors Effects
+## 6 Kinds of Animation Behaviors Effects
 
 #### UICollisionBehavior | UIDynamicItemBehavior | UIGravityBehavior | UIPushBehavior | UISnapBehavior | UIAttachmentBehavior
 
