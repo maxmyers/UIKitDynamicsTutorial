@@ -83,6 +83,15 @@ UIGravityBehavior *gravityBehavior = [[UIGravityBehavior alloc] initWithItems:@[
 
 
 # UIGravityBehavior
+  ```objective-c
+  UIGravityBehavior *gravityBehavior = [[UIGravityBehavior alloc] initWithItems:@[self.myView]];
+    
+    gravityBehavior.angle = 3*M_PI/2; // Angle at which Gravity pushes in | DOWN = M_PI/2 | RIGHT = M_PI | LEFT = 2M_PI or 0 | UP = 3(M_PI/2)
+    
+    gravityBehavior.magnitude = 30 // 30 points per second
+```
+
+
 # UIPushBehavior
 # UISnapBehavior
 # UIAttachmentBehavior
