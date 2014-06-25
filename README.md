@@ -5,7 +5,7 @@ UIKitDynamicsTutorial
 
 #### UICollisionBehavior | UIDynamicItemBehavior | UIGravityBehavior | UIPushBehavior | UISnapBehavior | UIAttachmentBehavior
 
-### 3 steps to basic animations
+### Example Of Animation Behavior
 
 `
 @property (nonatomic,strong)UIDynamicAnimator*animator;
