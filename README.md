@@ -14,9 +14,9 @@ UIKitDynamics Tutorial
 ```
 
 ##### 1. Create UIDynamicAnimator Property
-  ```objective-c
+  `objective-c
 @property (nonatomic,strong)UIDynamicAnimator*animator;
-```
+`
 
 ##### 2. Create UIDynamicAnimator Property
   ```objective-c
