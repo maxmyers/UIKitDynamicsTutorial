@@ -13,12 +13,12 @@ UIKitDynamics Tutorial
     [self.animator addBehavior:gravityBehavior];
 ```
 
-##### 1. Create UIDynamicAnimator Property
+##### 1. Add UIDynamicAnimator Property To Class
 `
 @property (nonatomic,strong)UIDynamicAnimator*animator;
 `
 
-##### 2. Create UIDynamicAnimator Property
+##### 2. Create Instance Of UIDynamicAnimator Property
   ```objective-c
 self.animator=[[UIDynamicAnimator alloc]initWithReferenceView:self.testView];
 ```
