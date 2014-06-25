@@ -90,8 +90,7 @@ UIGravityBehavior *gravityBehavior = [[UIGravityBehavior alloc] initWithItems:@[
     
     gravityBehavior.magnitude = 30 // 30 points per second
     
-    // gravityBehavior.gravityDirection=CGVectorMake(.1, .12); // creates gravity acceleration in x-direction and y-direction
-```
+    gravityBehavior.gravityDirection=CGVectorMake(.1, .12); // (Gravity Acceleration In X Direction, Gravity Acceleration In Y Direction)
 
 
 # UIPushBehavior
