@@ -7,6 +7,10 @@ UIKitDynamics Tutorial
 
 ### 3 steps to basic animations
 
+`
+@property (nonatomic,strong)UIDynamicAnimator*animator;
+`
+
   ```objective-c
     self.animator=[[UIDynamicAnimator alloc]initWithReferenceView:self.testView];
     UIGravityBehavior *gravityBehavior = [[UIGravityBehavior alloc] initWithItems:@[self.testView]];
