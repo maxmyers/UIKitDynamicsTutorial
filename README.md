@@ -90,8 +90,14 @@ UIGravityBehavior *gravityBehavior = [[UIGravityBehavior alloc] initWithItems:@[
     
     gravityBehavior.magnitude = 30 // 30 points per second
     
-    gravityBehavior.gravityDirection=CGVectorMake(.1, .12); // (Gravity Acceleration In X Direction, Gravity Acceleration In Y Direction)
+    gravityBehavior.gravityDirection=CGVectorMake(.1, .12); // (Gravity Acceleration In X Direction, Gravity Acceleration In Y Direction) Measured in 1000 points / second²
+```
 
+### Angle
+
+### Magnitude
+
+### GravityDirection
 
 # UIPushBehavior
 # UISnapBehavior
