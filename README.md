@@ -39,6 +39,10 @@ UIGravityBehavior *gravityBehavior = [[UIGravityBehavior alloc] initWithItems:@[
 
 
 # UICollisionBehavior
+
+### Creates behavior that allows items to collide
+
+
 # UIDynamicItemBehavior
 # UIGravityBehavior
 # UIPushBehavior
