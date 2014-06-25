@@ -42,6 +42,29 @@ UIGravityBehavior *gravityBehavior = [[UIGravityBehavior alloc] initWithItems:@[
 
 ### Creates behavior that allows items to collide
 
+  ```objective-c
+    // Initialize UIDynamicAnimator
+    self.animator = [[UIDynamicAnimator alloc] initWithReferenceView:self.view];
+    
+    // Create some sort of movement behavior that will allow object to move to show collision behavior
+    UIGravityBehavior *gravityBehavior = [[UIGravityBehavior alloc] initWithItems:@[self.myView]];
+    
+    // Create behavior for item
+    UICollisionBehavior *collisionBehavior = [[UICollisionBehavior alloc] initWithItems:@[self.myView]];
+    
+    //
+    UIDynamicItemBehavior* propertiesBehavior = [[UIDynamicItemBehavior alloc] initWithItems:@[self.myView]];
+    propertiesBehavior.elasticity = 0.75f;
+    
+    
+    collisionBehavior.translatesReferenceBoundsIntoBoundary = YES;
+    
+    
+    [self.animator addBehavior:propertiesBehavior];
+    [self.animator addBehavior:gravityBehavior];
+    [self.animator addBehavior:collisionBehavior];
+```
+
 
 # UIDynamicItemBehavior
 # UIGravityBehavior
